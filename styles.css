@@ -1,0 +1,115 @@
+
+
+#heroImage {
+  background:url('https://i.ibb.co/J5hVXv2/Group-3-1.png');
+  background-size: cover;
+  height:100vh;
+}
+
+header {
+  position: fixed;
+  width:100%;
+}
+header ul li {
+  transition: 0.3s;
+}
+header ul li:hover{
+  color: #ffbf00;
+}
+
+.text-a62126 {
+  color: #a62126;
+}
+
+.bg-a62126 {
+  background-color: #a62126;
+}
+
+.border-ffbf00{
+  color: #ffbf00;
+}
+
+.custom-bg-color {
+  background-color: #a62126;
+}
+
+.bg-811A1E {
+  background-color: #811A1E;
+}
+
+.bg-ffbf00 {
+  background-color: #ffbf00;
+}
+
+.text-ffbf00 {
+  color: #ffbf00;
+}
+
+
+
+.invisibleMenu {
+  background: #111827;
+  color:white;
+  height:0px;
+  overflow:hidden;
+  transition:  height .8s;
+}
+
+.visibleMenu {
+  background: #111827;
+  color:white;
+  height:200px;
+  transition: height.8s;
+  overflow: hidden;
+
+}
+
+#serviceCard{
+  border:1px solid #a62126;
+  transition: transform .2s; /* Animation */
+  margin-right:1rem;
+}
+
+#serviceCard,h3,button {
+  transition: 0.3s;
+  
+}
+
+#serviceCard:hover{
+  background-color: #101721;
+  border:1px solid  #a62126;
+  transform: scale(1.1); 
+
+}
+#serviceCard:hover h3{
+  color:#a62126;
+
+}
+#serviceCard:hover button{
+  color:white;
+}
+
+#whyChoose {
+  background:black;
+  background-size: cover;
+  height:auto
+}
+
+#projectList img{
+  height:390px;
+  width:100%;
+}
+
+footer{
+  background: #a62126; 
+  background: -webkit-linear-gradient(to left, #a62126, #a62126); 
+  background: linear-gradient(to left, #ad2807, #a62126); 
+  
+}
+
+@media (min-width:801px)  {
+  background:url('worldMedium.jpg');
+  background-size: cover;
+  height:100vh;
+
+}
